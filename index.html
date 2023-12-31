@@ -13,10 +13,11 @@
 
   <!-- Start Navbar -->
   <div class="topnav fixed-top navbar justify-content-end" id="myTopnav">
-    <a href="#home" class="active">Portfolio</a>
-    <a href="#news">About Me</a>
+    <a href="/">Home</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#about">About Me</a>
     <a href="https://kh7722.github.io/website/documents/kyleigh-teeters-resume.pdf" target="_blank">Résumé</a>
-    <a href="#about">Connect</a>
+    <a href="#connect">Connect</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -31,7 +32,7 @@
     <p class="heading">I'm Kyleigh Teeters.</p>
   <p class="sub-heading">I specialize in Front-End Development & Web Design.</p>
   <div class="row justify-content-center">
-    <a href="#" class="btn btn-primary">About Me</a>
+    <a href="#about" class="btn btn-primary">About Me</a>
     <a href="https://kh7722.github.io/website/documents/kyleigh-teeters-resume.pdf" target="_blank" class="btn btn-secondary">View Résumé</a>
   </div>
 </div>
@@ -40,7 +41,7 @@
 <!-- End Jumbo -->
 
 <!-- Start Content Block 1 -->
-<div class="content-block-one">
+<div id="portfolio" class="content-block-one">
   <div class="container py-5 text-center">
   <h1 class="h1-responsive">Portfolio</h1>
   <div class="row mt-5 mb-2">
@@ -63,26 +64,21 @@
   </div>
   <div class="row my-2">
     <div class="col-md-4 my-3">
-      <p><a href="https://kh7722.github.io/illustration-two/" target="_blank">Illustration</a></p>
+      <p><a href="https://kh7722.github.io/illustration-two/" target="_blank">CSS Art</a></p>
       <br>
       <p>HTML/CSS</p>
   </div>
     <div class="col-md-4 my-3">
-        <p>KCS</p>
+        <p><a href="design.html">Design</a></p>
         <br>
-        <p>Logo Design/Print Design</p>
-    </div>
-    <div class="col-md-4 my-3">
-        <p>Flyer Design</p>
-        <br>
-        <p>Digital Design</p>
+        <p>PS/AI/ID</p>
     </div>
   </div>
 </div>
 </div>
 <!-- End Content Block 1-->
 
-<div class="content-block-3">
+<div class="content-block-three">
   <div class="container py-5 text-center">
   <h2 class="h2-responsive">Current WIPs</h2>
   <p class="text-center">Because it's never too early to share!</p>
@@ -102,12 +98,13 @@
 
 <!-- Start Content Block 2 -->
 
-<div class="content-block-2">
+<div id="about" class="content-block-two">
   <div class="container py-5">
    
 <div class="row">
   <div class="col-md-6">
-    <div class="img-placeholder"></div>
+    <div class="headshot" style="background-image:url('/images/headshot.jpg');">
+  </div>
   </div>
   <div class="col-md-6 align-self-center">
     <h2 class="h2-responsive">About Me</h2>
@@ -133,7 +130,7 @@
 
 
 <!-- Start Content Block 4 -->
-<div class="content-block-4">
+<div id="connect" class="content-block-four">
 <div class="container py-5">
 <h2 class="h2-responsive text-center mb-5">Connect</h2>
 <div class="row my-2 justify-content-center">

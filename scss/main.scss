@@ -199,7 +199,7 @@ li::before {
 /* End Content Block 1 Styling */
 
 /* Start Content Block 2 Styling */
-.content-block-2 {
+.content-block-two {
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: $primary;
@@ -220,12 +220,15 @@ li::before {
     text-align: left !important;
   }
 
-  .img-placeholder {
-    width: 500px;
-    height: 500px;
-    background-color: $secondary;
-    border-radius: 300px;
-  }
+  .headshot {
+    border-radius: 1000px;
+    height: 550px;
+    width: 550px;
+    background-size: cover;
+    background-position: center center;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+}
 
   .btn {
     border: 2px solid #fff;
@@ -235,7 +238,7 @@ li::before {
 
 /* Start Content Block 4 Styling */
 
-.content-block-4 {
+.content-block-four {
   background-image: url(/images/shelf-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -331,7 +334,7 @@ li::before {
       background-color: $secondary !important;
     }
 
-    .content-block-2 .row {
+    .content-block-two .row {
       flex-wrap: wrap !important;
     }
   }
@@ -379,7 +382,7 @@ li::before {
     }
   }
 
-  .content-block-2 {
+  .content-block-two {
     .row {
       flex-wrap: wrap !important;
     }
@@ -415,10 +418,36 @@ li::before {
     }
   }
 
-  .content-block-4 {
+  .content-block-four {
     .col-md-6 {
       flex: 0 0 auto;
       width: 100%;
     }
   }
 }
+
+
+/* Start Design Page Styling */
+.design-sec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  h1 {
+    margin-top: 100px;
+  }
+
+  p {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+}
+
+.design-sec img {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+
+/* End Design Page Styling */

@@ -427,6 +427,18 @@ li::before {
 }
 
 
+@media(max-width:767px) {
+  .design-sec img {
+    max-width: 100% !important;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.design-sec video {
+  max-width: 100%;
+}
+}
+
 /* Start Design Page Styling */
 .design-sec {
   padding-top: 50px;
@@ -451,3 +463,4 @@ li::before {
 }
 
 /* End Design Page Styling */
+

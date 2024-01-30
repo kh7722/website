@@ -5,14 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kyleigh Teeters | Front-End Developer</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  />
+  <!-- MDB -->
+<link rel="stylesheet" href="css/mdb.min.css" />
   <link rel="stylesheet" href="https://kh7722.github.io/website/css/main.min.css">
+  <link rel="stylesheet" href="/css/main.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-
-  <!-- Start Navbar -->
+  <!-- Start Navbar 
   <div class="topnav fixed-top navbar justify-content-end" id="myTopnav">
     <a href="https://kh7722.github.io/website/">Home</a>
     <a href="#portfolio">Portfolio</a>
@@ -23,23 +29,85 @@
       <i class="fa fa-bars"></i>
     </a>
   </div>
-<!-- End Navbar -->
+ End Navbar -->
 
-<!-- Start Jumbo -->
+
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+  <!-- Toggle button -->
+  <button
+  class="navbar-toggler"
+  type="button"
+  data-mdb-toggle="collapse"
+  data-mdb-target="#navbarSupportedContent"
+  aria-controls="navbarSupportedContent"
+  aria-expanded="false"
+  aria-label="Toggle navigation"
+  >
+  <i class="fa-solid fa-bars"></i>
+  </button>
+  
+  <!-- Collapsible wrapper -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <!-- Links -->
+  <ul class="navbar-nav mb-2 mb-lg-0">
+  <li class="nav-item">
+    <a href="https://kh7722.github.io/website/">Home</a>
+  </li>
+  <li class="nav-item">
+    <a href="#portfolio">Portfolio</a>
+  </li>
+  <li class="nav-item">
+    <a href="#about">About Me</a>
+  </li>
+  <li class="nav-item">
+    <a href="https://kh7722.github.io/website/documents/kyleigh-teeters-resume.pdf" target="_blank">Résumé</a>
+    </li>
+  <li class="nav-item">
+    <a href="#connect">Connect</a>
+  </li>
+  </ul>
+  <!-- Links -->
+  </div>
+  <!-- Collapsible wrapper -->
+  <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+
+
+
+
+
+
+
+
+<!-- Start Jumbo
 <div class="jumbo" style="background-image: url('https://kh7722.github.io/website/images/banner-r2.png');">
 
+
   <div class="container">
-  <div class="jumbo-content text-center">
-    <p class="heading">I'm Kyleigh Teeters.</p>
-  <p class="sub-heading">I specialize in Front-End Development & Web Design.</p>
-  <div class="row justify-content-center">
-    <a href="#about" class="btn btn-primary">About Me</a>
-    <a href="https://kh7722.github.io/website/documents/kyleigh-teeters-resume.pdf" target="_blank" class="btn btn-secondary">View Résumé</a>
+    <div class="row d-flex justify-content-end">
+      <div class="col-md-8">
+  <div class="jumbo-content">
+    <p class="heading">Welcome!</p>
+  <p class="sub-heading">I'm Kyleigh Teeter, and I specialize in Front-End Development & Web Design.</p>
+  <div class="row justify-content-start">
+    <a href="#portfolio" class="btn btn-secondary">View Work</a>
+    <a href="https://kh7722.github.io/website/documents/kyleigh-teeters-resume.pdf" target="_blank" class="btn btn-primary">View Résumé</a>
   </div>
 </div>
 </div>
 </div>
-<!-- End Jumbo -->
+
+</div>
+
+
+</div>
+ End Jumbo -->
 
 <!-- Start Content Block 1 -->
 <div id="portfolio" class="content-block-one">
@@ -48,26 +116,28 @@
   <div class="row mt-5 mb-2">
     <div class="col-md-3 my-3">
       <img src="https://kh7722.github.io/website/images/teeters-travel-cover.png" alt="">
-      <p><a href="https://kh7722.github.io/portfolio-website-two/" target="_blank">Teeters Travel</a></p>
+      <p class="mb-0"><a href="https://kh7722.github.io/portfolio-website-two/" target="_blank">Teeters Travel</a></p>
       <br>
-      <p>HTML/CSS/JS</p>
+      <p class="mt-0">HTML/CSS/JS</p>
   </div>
   <div class="col-md-3 my-3">
     <img src="https://kh7722.github.io/website/images/thrift-ink-mockup.png" alt="">
-    <p><a href="https://kh7722.github.io/thriftink/" target="_blank">Thrift Ink</a></p>
+    <p class="mb-0"><a href="https://kh7722.github.io/thriftink/" target="_blank">Thrift Ink</a></p>
     <br>
-    <p>HTML/CSS/JS</p>
+    <p class="mt-0">HTML/CSS/JS</p>
 </div>
 <div class="col-md-3 my-3">
-  <p><a href="https://kh7722.github.io/illustration-two/" target="_blank">CSS Art</a></p>
+  <img src="https://kh7722.github.io/website/images/thrift-ink-mockup.png" alt="">
+  <p class="mb-0"><a href="https://kh7722.github.io/illustration-two/" target="_blank">CSS Art</a></p>
   <br>
-  <p>HTML/CSS</p>
+  <p class="mt-0">HTML/CSS</p>
 </div>
 
 <div class="col-md-3 my-3">
-  <p><a href="design.html">Design</a></p>
+  <img src="https://kh7722.github.io/website/images/thrift-ink-mockup.png" alt="">
+  <p class="mb-0"><a href="design.html">Design</a></p>
   <br>
-  <p>PS/AI/ID</p>
+  <p class="mt-0">PS/AI/ID</p>
 </div>
 
   </div>
@@ -98,27 +168,28 @@
 <div id="about" class="content-block-two">
   <div class="container py-5">
    
-<div class="row">
-  <div class="col-md-6">
-    <div class="headshot" style="background-image:url('https://kh7722.github.io/website/images/headshot.jpg');">
-  </div>
-  </div>
-  <div class="col-md-6 align-self-center">
-    <h2 class="h2-responsive">About Me</h2>
-    <p>I'm a front-end developer who loves tech, learning code, and working in the web industry. I'm currently a front-end developer at The Web Guys, where I design and code websites. Since entering the world of web, I've experienced the following avenues:</p>
-
-    <div class="row row-two m-0 p-0">
-      <div class="col-md-6 align-self-center">
-        <ul class="fa-ul">
-          <li class="fa-li">HTML5/CSS/Sass/JS</li>   
-          <li class="fa-li">Bootstrap 5/Bootstrap Material</li>
-          <li class="fa-li">WordPress</li>
-        </ul>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="headshot" style="background-image:url('https://kh7722.github.io/website/images/headshot.jpg');">
       </div>
+      </div>
+
+      <div class="col-md-6 align-self-center">
+        <h2 class="h2-responsive">About Me</h2>
+        <p>I'm a front-end developer who loves tech, learning code, and working in the web industry. I'm currently a front-end developer at The Web Guys, where I design and code websites. Since entering the world of web, I've experienced the following avenues:</p>
+    
+            <ul class="fa-ul">
+              <li class="fa-li">HTML5/CSS/Sass/JS</li>   
+              <li class="fa-li">Bootstrap 5/Bootstrap Material</li>
+              <li class="fa-li">WordPress</li>
+            </ul>
+
+        <a href="https://kh7722.github.io/website/documents/kyleigh-teeters-resume.pdf" target="_blank" class="btn btn-secondary mt-5">View Résumé</a>
+      </div>
+
     </div>
-    <a href="https://kh7722.github.io/website/documents/kyleigh-teeters-resume.pdf" target="_blank" class="btn btn-secondary mt-5">View Résumé</a>
-  </div>
-</div>
+
+
     </div>
 </div>
 
@@ -149,6 +220,6 @@
 
 
   <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="/js/custom.js"></script>
+  <script src="https://kh7722.github.io/website/js/custom.js"></script>
 </body>
 </html>

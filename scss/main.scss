@@ -1,5 +1,5 @@
-$primary: #ff75b8;
-$secondary: #91a6f8;
+$primary: #601da0;
+$secondary: #ffa500;
 $primary-font: Poppins;
 $beige: #fff5e0;
 
@@ -70,9 +70,11 @@ li::before {
   line-height: 40px;
 }
 
+/*
 .fa-li {
   width: 22em !important;
 }
+*/
 
 .bg-beige {
   background-color: $beige;
@@ -82,7 +84,7 @@ li::before {
 .topnav {
   overflow: hidden;
   /*background-color: rgba(255, 117, 184, 0.4)*/
-  background-color: rgba(145, 166, 248, 0.4);
+  background-color: rgba(132, 2, 253, 0.4);
 }
 
 .topnav a {
@@ -134,13 +136,49 @@ li::before {
 
 /* End Nav Styling */
 
+
+/*Navbar Fixes*/
+.nav-item a {
+  color: $secondary;
+  text-decoration: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+}
+
+.nav-link {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.overlay {
+  position: relative;
+}
+
+/* End Navbar Fixes */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Start Jumbo Styling */
 
 .jumbo {
   background-size: cover;
   background-repeat: no-repeat;
   height: 625px;
-  background-position: left center;
+  background-position: left center !important;
 }
 
 .jumbo-content {
@@ -286,6 +324,94 @@ li::before {
 /* Mobile Styling */
 
 @media (max-width: 991px) {
+  .navbar {
+    position: relative !important;
+    --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0) !important;
+    --bs-navbar-toggler-border-radius: 0rem !important;
+    --bs-navbar-toggler-focus-width: 0rem !important;
+    box-shadow: none;
+  }
+
+  .nav-item {
+    padding-left: 0px !important;
+}
+
+  .navbar-collapse collapse .mobile-navbar-brand .mobile-nav-logo {
+    display: block !important;
+  }
+
+  .navbar-collapse collapse show .mobile-navbar-brand .mobile-nav-logo {
+    margin-top: -20px !important;
+  }
+
+  .mobile-navbar-brand {
+    display: block;
+    margin: 0px auto;
+    text-decoration: none !important;
+    background-color: $primary;
+    text-align: center;
+  }
+
+  .mobile-nav-logo {
+    color: #fff;
+    font-family: $primary-font;
+    font-size: 40px;
+  }
+
+  .mobile-nav-logo .collapse:not(.show) {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    background-color: #91f8d7;
+    margin-top: -25px;
+    padding-bottom: 20px;
+    padding-top: 7px;
+  }
+
+  .nav-logo {
+    background-color: unset;
+    padding: 0px 0 0px 35px;
+    margin-left: 25px;
+    margin-bottom: -20px;
+    margin-top: 0px !important;
+    color: #000;
+    font-size: 20px;
+  }
+
+  .navbar-nav a {
+    padding: 0px 27px;
+  }
+
+  .topnav a {
+    margin-top: 0px;
+  }
+
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a {
+    font-size: 20px;
+  }
+
+  .navbar-toggler {
+    border: 0px;
+    margin-top: 10px;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+
+
+
+
   .nav-logo {
     font-size: 40px;
   }
@@ -299,6 +425,8 @@ li::before {
     margin-top: 100px !important;
     margin-left: 0px;
   }
+
+  
 
   .jumbo {
     background-image: url(/images/jumbo.png);
@@ -457,7 +585,21 @@ img.spacing-two {
   margin-top: 20px !important;
   margin-bottom: 20px !important;
 }
+
+.content-block-two .headshot {
+  border-radius: 1000px;
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-position: center center;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
 }
+}
+
+
+
+
 
 /* Start Design Page Styling */
 .design-sec {

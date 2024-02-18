@@ -51,9 +51,16 @@ content: "";
 font-family: none;
 }
 
+.nav-item {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+}
+
 .nav-item a {
-color: #fff;
-font-family: 'Poppins';
+  color: #fff;
+  font-family: "Poppins";
+  text-decoration: none !important;
 }
 
 /* End Nav Styling */
@@ -96,17 +103,28 @@ p {
 .btn {
   margin-left: 10px;
   margin-right: 10px;
-  border: 2px solid #fff;
+  border: 4px solid #fff;
 }
 }
 /* End Jumbo Styling */
 
 /* Start Content Block 1 Styling */
 .content-block-one {
+  .card {
+    border: 0px solid !important;
+    border-radius: 30px;
+    background-color: $secondary;
+  }
+
 p {
   font-family: $primary-font;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 20px;
+  color: #fff;
+}
+
+a {
+  color: #fff;
 }
 
 .row {
@@ -121,8 +139,18 @@ p {
 }
 
 img {
-  max-width: 300px !important;
+  max-width: 305px !important;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
 }
+
+.btn {
+  border: 4px solid #ffe1aa !important;
+  font-size: 22px !important;
+  min-width: 270px;
+  box-shadow: none;
+}
+
 }
 /* End Content Block 1 Styling */
 
@@ -193,7 +221,7 @@ li::before {
 }
 
 .btn {
-  border: 2px solid #fff;
+  border: 4px solid #fff;
 }
 }
 /* End Content Block 2 Styling */
@@ -201,17 +229,13 @@ li::before {
 /* Start Content Block 4 Styling */
 
 .content-block-four {
-background-image: url(/images/shelf-bg.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-
 img {
   box-shadow: 20px 20px 50px grey;
   border-radius: 15px;
 }
 
 .card {
-  background-color: $beige;
+  background-color: $primary;
   padding: 40px;
   border: none;
   justify-content: center;
@@ -224,12 +248,16 @@ p {
   font-size: 27px;
 }
 
+a {
+  color: #fff;
+}
+
 i {
   font-family: "FontAwesome";
   font-style: normal !important;
   font-size: 40px;
-  margin-right: 20px;
-  color: $primary;
+  margin-right: 10px;
+  color: #fff;
 }
 
 .fa-envelope {
@@ -249,7 +277,7 @@ i {
 
 .content-block-one {
   img {
-  max-width: 225px !important;
+  max-width: 260px !important;
 }
 }
 }
@@ -291,6 +319,14 @@ p {
 }
 
 @media (max-width: 992px) {
+  .navbar .nav-item {
+    padding-top: 10px !important;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+    border-bottom: 1px solid #4c007f;
+}
+
 .navbar {
 --bs-navbar-toggler-border-radius: 0rem !important;
 --bs-navbar-toggler-focus-width: 0rem !important;
@@ -530,13 +566,60 @@ max-width: 325px;
 }
 
 @media (max-width:481px) {
-  .content-block-one p {
+  h2 {
+    font-size: 30px !important;
+  }
+
+  .content-block-one {
+    p {
     font-size: 18px;
 }
 
-.content-block-two .headshot {
+.col-md-3 {
+  width: 100% !important;
+}
+  }
+
+.content-block-two {
+.headshot {
   height: 250px !important;
   max-width: 250px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+li {
+  font-size: 18px !important;
+}
+
+.btn {
+  font-size: 18px !important;
+  margin-top: 20px !important;
+}
+}
+
+.content-block-four {
+  h2 {
+    margin-bottom: 0px !important;
+  }
+
+  p {
+  font-size: 18px;
+}
+
+.fa-envelope {
+  font-size: 20px !important;
+}
+
+i {
+  font-size: 20px;
+}
 }
 }
 

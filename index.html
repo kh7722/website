@@ -15,77 +15,63 @@
   <link rel="stylesheet" href="/css/main.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <!-- MDB icon -->
+ <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+
 </head>
 <body>
 
-  <!-- Start Navbar 
-  <div class="topnav fixed-top navbar justify-content-end" id="myTopnav">
-    <a href="https://kh7722.github.io/website/">Home</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#about">About Me</a>
-    <a href="https://kh7722.github.io/website/documents/kyleigh-teeters-resume.pdf" target="_blank">Résumé</a>
-    <a href="#connect">Connect</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
- End Navbar -->
-
-
- <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
-  <!-- Toggle button -->
-  <button
-  class="navbar-toggler"
-  type="button"
-  data-mdb-toggle="collapse"
-  data-mdb-target="#navbarSupportedContent"
-  aria-controls="navbarSupportedContent"
-  aria-expanded="false"
-  aria-label="Toggle navigation"
-  >
-  <i class="fa-solid fa-bars"></i>
-  </button>
+ <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        data-mdb-collapse-init
+        class="navbar-toggler"
+        type="button"
+        data-mdb-target="#navbarCenteredExample"
+        aria-controls="navbarCenteredExample"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
   
-  <!-- Collapsible wrapper -->
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <!-- Links -->
-  <ul class="navbar-nav mb-2 mb-lg-0">
-  <li class="nav-item">
-    <a href="https://kh7722.github.io/website/">Home</a>
-  </li>
-  <li class="nav-item">
-    <a href="#portfolio">Portfolio</a>
-  </li>
-  <li class="nav-item">
-    <a href="#about">About Me</a>
-  </li>
-  <li class="nav-item">
-    <a href="https://kh7722.github.io/website/documents/kyleigh-teeters-resume.pdf" target="_blank">Résumé</a>
-    </li>
-  <li class="nav-item">
-    <a href="#connect">Connect</a>
-  </li>
-  </ul>
-  <!-- Links -->
-  </div>
-  <!-- Collapsible wrapper -->
-  <!-- Right elements -->
-  </div>
-  <!-- Container wrapper -->
+      <!-- Collapsible wrapper -->
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarCenteredExample"
+      >
+        <!-- Left links -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="https://kh7722.github.io/website/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://kh7722.github.io/website/documents/kyleigh-teeters-resume.pdf" target="_blank">Résumé</a>
+          </li>
+          <li class="nav-item">
+            <a href="#connect">Connect</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
   </nav>
-  <!-- Navbar -->
 
+<!-- End Navbar -->
 
-
-
-
-
-
-
-
-<!-- Start Jumbo
+<!-- Start Jumbo -->
 <div class="jumbo" style="background-image: url('https://kh7722.github.io/website/images/banner-r2.png');">
 
 
@@ -94,7 +80,7 @@
       <div class="col-md-8">
   <div class="jumbo-content">
     <p class="heading">Welcome!</p>
-  <p class="sub-heading">I'm Kyleigh Teeter, and I specialize in Front-End Development & Web Design.</p>
+  <p class="sub-heading">I'm Kyleigh Teeters, and I specialize in Front-End Development & Web Design.</p>
   <div class="row justify-content-start">
     <a href="#portfolio" class="btn btn-secondary">View Work</a>
     <a href="https://kh7722.github.io/website/documents/kyleigh-teeters-resume.pdf" target="_blank" class="btn btn-primary">View Résumé</a>
@@ -107,7 +93,7 @@
 
 
 </div>
- End Jumbo -->
+<!-- End Jumbo -->
 
 <!-- Start Content Block 1 -->
 <div id="portfolio" class="content-block-one">
@@ -145,6 +131,7 @@
 </div>
 <!-- End Content Block 1-->
 
+ <!-- 
 <div class="content-block-three">
   <div class="container py-5 text-center">
   <h2 class="h2-responsive">Current WIPs</h2>
@@ -162,6 +149,7 @@
   </div>
 </div>
 </div>
+-->
 
 <!-- Start Content Block 2 -->
 
@@ -205,9 +193,7 @@
   <div class="col-md-6 my-3">
 <div class="card">
   <p><i class="fa-solid fa-envelope"></i><a href="mailto:kyleighteeters@gmail.com">kyleighteeters@gmail.com</a></p>
-  <p><a href="https://www.linkedin.com/in/kyleigh-teeters/" target="_blank">
- LinkedIn</a> | <a href="https://github.com/kh7722" target="_blank">
-  Github</a></p>
+  <p><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/kyleigh-teeters/" target="_blank">LinkedIn</a></p>
 </div>
   </div>
   </div>
@@ -218,8 +204,16 @@
   
 
 
-
+<!--
   <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
   <script src="https://kh7722.github.io/website/js/custom.js"></script>
+-->
+
+ <!-- MDB -->
+ <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+ <!-- Custom scripts -->
+ <script type="text/javascript"></script>
+
+
 </body>
 </html>

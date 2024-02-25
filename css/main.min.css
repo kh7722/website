@@ -10957,6 +10957,15 @@ textarea.form-control-lg {
   .content-block-one img {
     max-width: 260px !important;
   }
+  .content-block-one .btn {
+    font-size: 18px !important;
+    min-width: 225px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+  .content-block-one p {
+    font-size: 20px !important;
+  }
 }
 @media (max-width: 1200px) {
   .jumbo-content .sub-heading {
@@ -10977,6 +10986,9 @@ textarea.form-control-lg {
   .content-block-one .row {
     margin-left: 0px !important;
   }
+  .content-block-one .btn {
+    min-width: 175px;
+  }
   .content-block-two .headshot {
     width: 450px;
     height: 450px;
@@ -10984,6 +10996,9 @@ textarea.form-control-lg {
   }
 }
 @media (max-width: 992px) {
+  .btn {
+    font-size: 20px !important;
+  }
   .navbar .nav-item {
     padding-top: 10px !important;
     padding-bottom: 10px;
@@ -11090,6 +11105,10 @@ textarea.form-control-lg {
   .content-block-one p {
     margin-top: 5px;
   }
+  .content-block-one .btn {
+    min-width: 225px;
+    margin-top: 15px;
+  }
   .content-block-two {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -11143,6 +11162,10 @@ textarea.form-control-lg {
   .content-block-one img {
     max-width: 100% !important;
   }
+  .content-block-one .btn {
+    min-width: 175px;
+    margin-top: 15px;
+  }
   .design-sec img {
     max-width: 100% !important;
     padding-left: 40px;
@@ -11179,6 +11202,12 @@ textarea.form-control-lg {
   h2, .h2 {
     font-size: 30px !important;
   }
+  .jumbo-content .btn {
+    max-width: 250px !important;
+  }
+  .content-block-one .btn {
+    min-width: 225px;
+  }
   .content-block-one p {
     font-size: 18px;
   }
@@ -11206,7 +11235,7 @@ textarea.form-control-lg {
     margin-bottom: 0px !important;
   }
   .content-block-four p {
-    font-size: 18px;
+    font-size: 17px;
   }
   .content-block-four .fa-envelope {
     font-size: 20px !important;
